@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime, date
 from math import log
 
-st.set_page_config(page_title="Pill Checker", page_icon="💊", layout="wide")
+st.set_page_config(page_title="이 약 먹어도 될까?", page_icon="💊", layout="wide")
 
 DRUGS = {
 "타이레놀정500mg":{"ingredients":{"아세트아미노펜":500},"group":"비NSAID 해열진통제","dose":"1회 1~2정, 4~6시간 간격, 1일 3~4회","interval":4,"max_times":4,"max_units":None},
