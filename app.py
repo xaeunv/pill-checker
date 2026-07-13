@@ -144,7 +144,7 @@ def check_new_drug(records, new_drug, new_units, now):
 
     return results
 
-st.title("💊 Pill Checker")
+st.title("💊 이 약 먹어도 될까? ")
 st.caption("만 15세 이상 사용자를 위한 생리통 진통제 성분·복용기록 확인 도구")
 st.info("성분 중복, 동일·유사 약물 계열 병용, 제품별 공식 복용 기준을 확인합니다. '안전함' 또는 '복용 가능함'을 판정하지 않습니다.")
 
